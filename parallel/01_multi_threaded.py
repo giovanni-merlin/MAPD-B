@@ -1,6 +1,7 @@
 # multi_threaded.py
 import time
 from threading import Thread
+#thr module, thread submodule
 
 def my_sum(a,b):
     """ a simple function summing integers from a to b """
@@ -31,6 +32,7 @@ if __name__ == '__main__':
     # => the program creates the threads and proceeds onward without blocking its execution
     t1.start()
     t2.start()
+    #here start the tasks?
 
     # join both threads 
     # *join* => wait for a thread to have completed its task
@@ -44,3 +46,8 @@ if __name__ == '__main__':
 
     print()
     print(f'Time taken = {end - start:.2f} sec')
+
+    #doesn't happen with c++
+    #happ with this kind ov version of python!!
+    #Q: why this two preocess are half as fast on every cpu as the other non threaded?
+    #see Cpython in "threading"

@@ -40,3 +40,6 @@ if __name__ == '__main__':
     print()
     print(f'Time taken = {end - start:.2f} sec')
 
+    #as if we had launched python 2 different times in parallel...
+    #spmd
+

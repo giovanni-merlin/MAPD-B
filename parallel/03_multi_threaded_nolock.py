@@ -25,6 +25,8 @@ def my_sum_mod(a,b,m):
         if i%m == 0:
             COMMON_COUNTER += 1
             COMMON_LIST.append(i)
+            #race condition!
+            #despite the GIL, it depepnds on how the computer works
 
     print (f'Sum from {a} to {b} = {the_sum}')
 

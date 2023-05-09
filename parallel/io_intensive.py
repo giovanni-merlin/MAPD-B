@@ -1,3 +1,6 @@
+#cpu is launching the request of fetching data
+#but then is waiting
+
 # io_intensive.py
 import time
 import urllib.request

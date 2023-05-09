@@ -1,3 +1,5 @@
+#this is the way to go typically in python
+
 # multi_processing_pool_starmap.py
 import time
 from multiprocessing import Pool
@@ -16,6 +18,7 @@ if __name__ == '__main__':
     MAX = 100_000_000
 
     # define the number of processes
+    #effectively limited by physical number of cpu in the computer?
     N_PROCESSES = 4
 
     # start a timer

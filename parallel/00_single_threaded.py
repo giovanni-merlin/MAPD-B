@@ -9,6 +9,8 @@ def my_sum(a,b):
         the_sum += i
     print (f'Sum from {a} to {b} = {the_sum}')
 
+#anzichè looping?
+
 if __name__ == '__main__':
     # common "global" objects
     MIN = 0
